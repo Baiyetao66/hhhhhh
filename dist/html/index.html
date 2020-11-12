@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/index.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/reset.css">
+
+</head>
+
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header_top">
+            <div class="top_l">
+                <a href="../html/index.html">E宠首页</a>
+            </div>
+            <div class="sz">送至：</div>
+            <div class="cq">重庆</div>
+            <div class="xj"></div>
+            <div class="top_l1">
+                <a href="">E宠就是正品</a>
+            </div>
+            <ul class="top_r">
+                <li class="denlu"><a href="../html/denglu.html">[登录]</a></li>
+                <li><a href="../html/">[注册]</a></li>
+                <li><i class="gwc"></i><a href="../html/Cart.html">购物车(<span style="color: red;">0</span>)</a></li>
+                <li><i class="wo"></i><a href="">我的E宠</a></p>
+                </li>
+                <li class="wsc"><i class="sc"></i><a href="">我的收藏</a></li>
+                <li class="pione"><i class="shouji"></i><a href="http://www.epet.com/app.html">手机版</a></li>
+                <li><a class="cred" href="" style="color: red;">问题反馈</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- 搜索部分 -->
+    <div class="search">
+        <div class="seach">
+            <div class="logo"></div>
+            <form action="">
+                <input type="text" name="" id="" placeholder="卫士">
+                <button value="">搜索</button>
+                <div class="Hot">
+                    <label>热门搜索：</label>
+                    <a href="" target="_blank" style="color: red;">伯纳天纯</a><span>|</span> <a href="" target="_blank">冠能</a><span>|</span> <a href="" target="_blank">麦德氏</a><span>|</span> <a href="" target="_blank">粑粑抓</a><span>|</span> <a href="" target="_blank">小青鲨</a>                    </div>
+            </form>
+            <div class="shopping_cart">
+                <a href="../html/Cart.html">购物车(<span style="color: red;">0</span>)</a>
+            </div>
+        </div>
+        <!-- 导航 -->
+        <div class="nav">
+            <div class="navbox-l">
+                <div class="gougou"><a href="">狗狗</a></div>
+                <div class="shangping"><a href="">商品分类</a></div>
+            </div>
+            <ul class="navbox-r">
+                <li>
+                    <a target="_blank" class="mns" href=""><b></b>品牌特卖</a>
+                </li>
+                <li><a target="_blank" class="mns" href=""><b></b>潮品视频</a></li>
+                <li><a target="_blank" class="mns" href="http://www.epet.com/epetube/Main.html"><b></b>小剧场</a></li>
+                <li><a target="_blank" class="mns" href="
+                                     http://www.epet.com/zt/knowledge/main.html?pet_type=dog                     "><b></b>E宠课堂</a></li>
+                <li><a target="_blank" class="mns" href="http://www.epet.com/union/trial.html"><b></b>萌爪联盟</a></li>
+                <li><a target="_blank" class="mns" href="http://www.epet.com/cleargoodsmdog.html"><b></b>清仓特价</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="banner">
+        <!-- 轮播部分 -->
+        <div class="banner">
+            <ul class="sp-nav">
+                <li class="">
+                    <h3>
+                        <a href="../html/lianbiao.html" lang="5">主粮 
+            </a>
+                        <a href="../html/lianbiao.html" lang="6">零食 
+            </a>
+                    </h3>
+                </li>
+                <li class="">
+                    <h3>
+                        <a href="" lang="4377">窝垫 
+            </a>
+                        <a href="" lang="53">玩具 
+            </a>
+                    </h3>
+                </li>
+                <li class="">
+                    <h3>
+                        <a href="" lang="4315">清洁 
+            </a>
+                        <a href="" lang="48">保健 
+            </a>
+                    </h3>
+                </li>
+                <li class="">
+                    <h3>
+                        <a href="" lang="49">护理 
+            </a>
+                        <a href="" lang="54">生活 
+            </a>
+                    </h3>
+                </li>
+                <li class="">
+                    <h3>
+                        <a href="https://list.epet.com/2652.html" lang="2652">牵引 
+            </a>
+                        <a href="https://list.epet.com/4334.html" lang="4334">洗澡 
+            </a>
+                    </h3>
+                </li>
+                <li class="">
+                    <h3>
+                        <a href="https://list.epet.com/55.html" lang="55">服饰 
+            </a>
+                        <a href="https://list.epet.com/2651.html" lang="2651">美容 
+            </a>
+                    </h3>
+                </li>
+                <p class="huoren"><img src="//static.epetbar.com/www/images/epet/active.png">正在进行的品牌特卖<a>26</a></p>
+            </ul>
+            <!-- 轮播tu -->
+            <div class="Rotation">
+
+            </div>
+            <!-- 又面部分 -->
+            <div class="main_r">
+                <div>
+                    <a style="height:119px;" href="" class="imgBox ibotline"><img alt="小萌书" src="https://img2.epetbar.com/nowater/2019-09/10/18/4bca3d080f8d1f38eb742903fd5eb816.jpg"></a>
+                </div>
+                <div>
+                    <a style="height:119px;" href="" class="imgBox ibotline"><img alt="体验馆招商" src="https://img2.epetbar.com/nowater/2019-04/10/14/4ce4896824469d8704012768bbaf9b1e.png"></a>
+                </div>
+                <div>
+                    <a style="height:120px;" href="" target="_blank" class="imgBox"><img alt="品牌特卖" src="https://img2.epetbar.com/nowater/2018-05/02/11/daec91842077d2a1bfd284338be45707.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 狗狗食品玩具 -->
+    <div class="Foodtoys">
+        <div class="shiping">
+            <div class="epetfood-tit ft20 c333 pb10"><i class="index-ico cate_5 dib fl mr5"></i>狗狗主粮</div>
+            <div class="fr rela epetfood-pro">
+                <div class="lib-menu textR abs overflow">
+                    <ul class="clearfix dib ftc">
+                        <li id="one1" class="hover fl bgwhite pointer">
+                            <div class="border-t"><span>热门</span></div>
+                        </li>
+                        <li id="one2" class="fl bgwhite pointer">
+                            <a target="_blank" href="" class="db">
+                                <div class="border-t"><span>进口狗粮</span></div>
+                            </a>
+                        </li>
+                        <li id="one3" class="fl bgwhite pointer">
+                            <a target="_blank" href="" class="db">
+                                <div class="border-t"><span style="border-right: 0px;">国产狗粮</span></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lib_conbox">
+                    <div id="con_one_1">
+                        <div class="imgbox">
+                            <div class="clearfix">
+                                <div class="fl overflw bigimg1 border-r rela">
+                                    <a target="_blank" href="../html/lianbiao.html">
+                                        <div class="ad-font">
+                                            <p class="fontover ft16 c000" title="比瑞吉">比瑞吉</p>
+                                            <p class="fontover ft14 cf40 mt5"> 天然好粮 食材说话</p>
+                                        </div>
+                                        <img src="//img2.epetbar.com/2019-04/25/15/dd01e3d56b5d35a60d9106c77ef9fc1e.jpg@!water"></a>
+                                </div>
+                                <div class="fr overflw">
+                                    <div class="border-r bigimg2 rela">
+                                        <a target="_blank" href="../html/lianbiao.html">
+                                            <div class="ad-font">
+                                                <p class="fontover ft16 c000" title="冠能">冠能</p>
+                                                <p class="fontover ft14 cf40 mt5">科学配方 呵护皮毛</p>
+                                            </div>
+                                            <img src="//img2.epetbar.com/2019-04/25/15/8a6fae0494f19540b20f156e26cc288e.jpg@!water"></a>
+                                    </div>
+                                    <div class="border-r bigimg2 rela">
+                                        <a target="_blank" href="../html/lianbiao.html">
+                                            <div class="ad-font">
+                                                <p class="fontover ft16 c000" title="丝倍亮">丝倍亮</p>
+                                                <p class="fontover ft14 cf40 mt5">澳洲1/3养宠家庭的选择</p>
+                                            </div>
+                                            <img src="//img2.epetbar.com/2019-04/25/16/9f08060e66a2606d85d32158279fb3b9.jpg@!water"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix ad-threebox">
+                                <div class="bigimg3 fl border-r overflow rela">
+                                    <a target="_blank" href="../html/lianbiao.html">
+                                        <div class="ad-font">
+                                            <p class="fontover ft16 c000" title="欧冠">欧冠</p>
+                                            <p class="fontover ft14 cf40 mt5">比利时百年品牌</p>
+                                        </div>
+                                        <img src="//img2.epetbar.com/2020-02/04/13/975d25f8d963e7158f0d8768d70700c5.jpg@!water"></a>
+                                </div>
+                                <div class="bigimg3 fl border-r overflow rela">
+                                    <a target="_blank" href="../html/lianbiao.html">
+                                        <div class="ad-font">
+                                            <p class="fontover ft16 c000" title="纽顿 ">纽顿 </p>
+                                            <p class="fontover ft14 cf40 mt5">低敏配方 均衡营养</p>
+                                        </div>
+                                        <img src="//img2.epetbar.com/2019-04/25/16/da7f04d5a8d573096113dccae6d95f80.jpg@!water"></a>
+                                </div>
+                                <div class="bigimg3 fl border-r overflow rela">
+                                    <a target="_blank" href="../html/lianbiao.html">
+                                        <div class="ad-font">
+                                            <p class="fontover ft16 c000" title="皇家">皇家</p>
+                                            <p class="fontover ft14 cf40 mt5">专犬专用 定制营养</p>
+                                        </div>
+                                        <img src="//img2.epetbar.com/nowater/2020-03/13/11/e216346d9cc3b08cd2236fc0013fb96e.jpg@!water"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="con_one_2" style="display:none" lang="0">
+                    </div>
+                    <div id="con_one_3" style="display:none" lang="0">
+                    </div>
+                </div>
+            </div>
+            <div class="xqs"><img alt="小青鲨-狗狗主粮" src="https://img2.epetbar.com/nowater/2020-04/26/11/1ce336674ef947814ec8c5bb1830c799.jpg">
+                <div class="qingsha">
+                    <div class="zhuire">
+                        <span class="hx">——————</span>
+                        <i class="huo"></i>
+                        <b class="re">最热HOT</b>
+                        <span class="hx">——————</span>
+                    </div>
+                    <ul class="libiao">
+                        <li><a href="">海瑞特鲜肉粮</a></li>
+                        <li><a href="">比瑞吉天然粮</a></li>
+                        <li><a href="">海洋之星</a></li>
+                        <li><a href="">皇家</a></li>
+                        <li><a href="">冠能</a></li>
+                        <li><a href="">爱慕思</a></li>
+                        <li><a href="">顽皮</a></li>
+                        <li><a href="">卫塔卡夫</a></li>
+                        <li><a href="">开饭乐</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <ul class="clearfix brands-ul">
+            <li class="fl">
+                <a target="_blank" href=""><img src="http://img2.epetbar.com/nowater/brand_logo/2018-01/17/15/dcdd9aa566992eae9360447c5da128c5.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+            </li>
+            <li class="fl">
+                <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1562131788.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+            </li>
+            <li class="fl">
+                <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1545041192.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+            </li>
+            <li class="fl">
+                <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1547004718.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+            </li>
+            <li class="fl">
+                <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1547015305.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+            </li>
+            <li class="fl">
+                <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1562639814.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+            </li>
+            <li class="fl">
+                <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/purchase_suppliers_file_1536301115.png?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+            </li>
+            <li class="fl">
+                <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1550045070.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+            </li>
+        </ul>
+        <!-- fghjkl;lkjhghjkl;lkjhjk -->
+
+        <div class="epetfoodblock mt30  ssss">
+            <div class="qingsha1">
+                <div class="zhuire1">
+                    <span class="hx1">——————</span>
+                    <i class="huo1"></i>
+                    <b class="re1">最热HOT</b>
+                    <span class="hx1">——————</span>
+                </div>
+                <ul class="libiao1">
+                    <li><a href="">海瑞特鲜肉粮</a></li>
+                    <li><a href="">比瑞吉天然粮</a></li>
+                    <li><a href="">海洋之星</a></li>
+                    <li><a href="">皇家</a></li>
+                    <li><a href="">冠能</a></li>
+                    <li><a href="">爱慕思</a></li>
+                    <li><a href="">顽皮</a></li>
+                    <li><a href="">卫塔卡夫</a></li>
+                    <li><a href="">开饭乐</a></li>
+                </ul>
+            </div>
+            <div class="epetfood-tit ft20 c333 pb10"><i class="index-ico cate_49 dib fl mr5"></i>狗狗保健&amp;医疗</div>
+            <div class="clearfix">
+                <div class="fl ad-img3 rela overflow">
+                    <a href=""><img alt="福来恩" src="https://img2.epetbar.com/nowater/2019-04/25/15/db9fd3a8bd45247973459158ec8e26c1.jpg"></a>
+                    <a href=""><img alt="麦德氏" src="https://img2.epetbar.com/nowater/2018-06/29/17/fc146c515230dd762dd67ddc1d207c89.jpg"></a>
+                </div>
+                <div class="fr rela epetfood-pro">
+                    <div class="lib-menu textR abs overflow">
+                        <ul class="clearfix dib ftc">
+                            <li id="three1" onmouseenter="setTab('three',1,7, 0)" class="hover fl bgwhite pointer">
+                                <div class="border-t"><span>热门</span></div>
+                            </li>
+                            <li id="three2" class="fl bgwhite pointer">
+                                <a href="" class="db">
+                                    <div class="border-t"><span>体内驱虫</span></div>
+                                </a>
+                            </li>
+                            <li id="three3" class="fl bgwhite pointer">
+                                <a href="" class="db">
+                                    <div class="border-t"><span>体外驱虫</span></div>
+                                </a>
+                            </li>
+                            <li id="three4" class="fl bgwhite pointer">
+                                <a href="" class="db">
+                                    <div class="border-t"><span>皮肤护理</span></div>
+                                </a>
+                            </li>
+                            <li id="three5" class="fl bgwhite pointer">
+                                <a href="" class="db">
+                                    <div class="border-t"><span>强化免疫</span></div>
+                                </a>
+                            </li>
+                            <li id="three6" class="fl bgwhite pointer">
+                                <a href="" class="db">
+                                    <div class="border-t"><span>肠胃调理</span></div>
+                                </a>
+                            </li>
+                            <li id="three7" class="fl bgwhite pointer">
+                                <a href="" class="db">
+                                    <div class="border-t"><span style="border-right: 0px;">微量元素</span></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="lib_conbox">
+                        <div id="con_three_1">
+                            <div class="imgbox">
+                                <div class="clearfix">
+                                    <div class="fl overflw bigimg1 border-r rela">
+                                        <a target="_blank" href="">
+                                            <div class="ad-font">
+                                                <p class="fontover ft16 c000" title="超可信">超可信</p>
+                                                <p class="fontover ft14 cf40 mt5">内外同驱 只“喂”更亲近</p>
+                                            </div>
+                                            <img src="//img2.epetbar.com/nowater/2019-04/25/15/d50666737baff7813e117248c3042954.jpg@!water"></a>
+                                    </div>
+                                    <div class="fr overflw">
+                                        <div class="border-r bigimg2 rela">
+                                            <a target="_blank" href="https://item.epet.com/200379.html">
+                                                <div class="ad-font">
+                                                    <p class="fontover ft16 c000" title="拜耳Bayer">拜耳Bayer</p>
+                                                    <p class="fontover ft14 cf40 mt5">高口碑体内驱虫药</p>
+                                                </div>
+                                                <img src="//img2.epetbar.com/2019-04/25/11/c4a306258bcb9c3049a058c61f93113e.jpg@!water"></a>
+                                        </div>
+                                        <div class="border-r bigimg2 rela">
+                                            <a target="_blank" href="https://item.epet.com/110287.html">
+                                                <div class="ad-font">
+                                                    <p class="fontover ft16 c000" title="小宠EHD">小宠EHD</p>
+                                                    <p class="fontover ft14 cf40 mt5">呵护爱宠敏感肠胃</p>
+                                                </div>
+                                                <img src="//img2.epetbar.com/2019-04/25/11/ed404dcf347f1a8928fd93372dbe7fd3.jpg@!water"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="clearfix ad-threebox">
+                                    <div class="bigimg3 fl border-r overflow rela">
+                                        <a target="_blank" href="https://list.epet.com/search/main.html?match_cid=&amp;ls=1&amp;keyword=%E5%A4%9A%E5%95%A6%E5%B0%8F%E8%90%8C&amp;match_mode=&amp;pet_type=dog&amp;version=2.0.0&amp;attrid=&amp;brandid=0&amp;buymode=0&amp;cid=48">
+                                            <div class="ad-font">
+                                                <p class="fontover ft16 c000" title="多啦小萌">多啦小萌</p>
+                                                <p class="fontover ft14 cf40 mt5">功能性营养膏</p>
+                                            </div>
+                                            <img src="//img2.epetbar.com/nowater/2020-02/25/09/2256759cd86a7372d1c079eeae773846.jpg@!water"></a>
+                                    </div>
+                                    <div class="bigimg3 fl border-r overflow rela">
+                                        <a target="_blank" href="https://item.epet.com/146751.html">
+                                            <div class="ad-font">
+                                                <p class="fontover ft16 c000" title="红狗RedDog">红狗RedDog</p>
+                                                <p class="fontover ft14 cf40 mt5">吃红狗强免疫</p>
+                                            </div>
+                                            <img src="//img2.epetbar.com/2020-02/04/15/7d865d4e57eb00303c0903fea6934835.jpg@!water"></a>
+                                    </div>
+                                    <div class="bigimg3 fl border-r overflow rela">
+                                        <a target="_blank" href="">
+                                            <div class="ad-font">
+                                                <p class="fontover ft16 c000">谷登GOLDEN</p>
+                                                <p class="fontover ft14 cf40 mt5">钙磷双补羊奶粉</p>
+                                            </div>
+                                            <img src="//img2.epetbar.com/2020-02/04/15/dcafe3f8aac3d87f78120e7b124e1cc0.jpg@!water"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="clearfix brands-ul">
+                <li class="fl">
+                    <a target="_blank" href=""><img src="http://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/7f05c5e0fb15da2f14748c19d23a7334.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+                </li>
+                <li class="fl">
+                    <a target="_blank" href=""><img src="http://img2.epetbar.com/nowater/brand_logo/2015-10/17/12/d9e05c4a2d35c88ffee0dcec98fba6a4.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+                </li>
+                <li class="fl">
+                    <a target="_blank" href=""><img src="http://img2.epetbar.com/nowater/2016-08/18/16/31b7dfdd08ce602f1239ae8ce7954802.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+                </li>
+                <li class="fl">
+                    <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1547005808.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+                </li>
+                <li class="fl">
+                    <a target="_blank" href=""><img src="http://img2.epetbar.com/nowater/brand_logo/2018-03/07/15/6360b2e4d7a84a5b760db9f4545a813a.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+                </li>
+                <li class="fl">
+                    <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1552986300.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+                </li>
+                <li class="fl">
+                    <a target="_blank" href=""><img src="http://img2.epetbar.com/nowater/brand_logo/2016-08/12/14/0f7e2127c9d9defebe8d49ec98792cc4.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+                </li>
+                <li class="fl">
+                    <a target="_blank" href=""><img src="http://img2.epetbar.com/brand/brandLogo/upload_file_1542336567.jpg?x-oss-process=style/fill&amp;$1=100&amp;$2=48"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer-content">
+        <div class="footer-top">
+            <div class="footer-imgs ct w-max">
+                <ul class="clearfix">
+                    <li class="fl">
+                        <a class="zp ft18" href="" target="_blank">正品保障</a>
+                    </li>
+                    <li class="fl">
+                        <a class="ck ft18" href="" target="_blank">品类丰富</a>
+                    </li>
+                    <li class="fl">
+                        <a class="ps ft18" href="" target="_blank">优质服务</a>
+                    </li>
+                    <li class="fl">
+                        <a class="hh ft18" href="" target="_blank">科学养宠</a>
+                    </li>
+                    <li class="fl">
+                        <a class="bs ft18" href="" target="_blank">E宠公益</a>
+                    </li>
+                    <li class="fl">
+                        <a class="cj ft18" href="" target="_blank">十年同心</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <div class="info clearfix">
+                <div class="footer-phone fl mr20 pr20">
+                    <img class="fl mt5 dogphone" src="//static.epetbar.com/www/newFooter/dog_phone.gif">
+                    <div class="footer-number fl">
+                        <h2 class="ft14 c666 bold">售后电话：</h2>
+                        <p class="c666 ft20 mt20">4008889200<span class="ml5 ft12">「免长途费」</span></p>
+                        <p class="c666 ft20 mt20">023-68851700<span class="ml5 ft12"></span></p>
+                        <p class="c444 ft12 mt10">服务时间：09:00--18:30（周一到周日）</p>
+                    </div>
+                </div>
+                <div class="pay-style fl">
+                    <h2 class="ft14 c666 bold">购物指南</h2>
+                    <p class="ft14 c444 mt20"><a href="http://www.epet.com/faq4481.html?petType=dog" target="_blank">新人优惠</a></p>
+                    <p class="ft14 c444 mt5"><a href="http://www.epet.com/faq.html?petType=dog" target="_blank">购物问题</a></p>
+                    <p class="ft14 c444 mt5"><a href="http://www.epet.com/faq4467.html?petType=dog" target="_blank">支付问题</a></p>
+                </div>
+                <div class="peisong-style fl">
+                    <h2 class="ft14 c666 bold"></h2>
+                </div>
+                <div class="shopping-guide fl">
+                    <h2 class="ft14 c666 bold">售后服务</h2>
+                    <p class="ft14 c444 mt20"><a href="http://www.epet.com/faq4074.html?petType=dog" target="_blank">退换货政策</a></p>
+                    <p class="ft14 c444 mt5"><a href="http://www.epet.com/faq4254.html?petType=dog" target="_blank">退款说明</a></p>
+                    <p class="ft14 c444 mt5"><a href="http://www.epet.com/faq4487.html?petType=dog" target="_blank">售后问题</a></p>
+                </div>
+                <div class="app-code fl ml20">
+                    <p class="ftc ft12">扫描下载APP</p>
+                    <p class="ftc ft12">下单更优惠</p>
+                    <a href="http://www.epet.com/app.html" target="_blank"><img src="//static.epetbar.com/www/images/dw2.png?v=10"></a>
+                </div>
+                <div class="wx-code fr">
+                    <p class="ftc ft12">扫描关注E宠</p>
+                    <p class="ftc ft12">商城微信</p>
+                    <img src="//static.epetbar.com/www/images/app-code.jpg?v=10">
+                </div>
+            </div>
+            <div class="flink c999 rela">
+                <div class="fwrapper overflow ftc">
+                    <span class="brand-link">
+        <a class="c999" href="https://www.epet.com/zhengpin/main.html?do=newgoods#decennium" target="_blank">关于我们</a>
+        <a class="c999" href="https://weibo.com/epetbar?is_all=1" target="_blank">
+        <img src="//static.epetbar.com/static_web/pc/src/images/background/weibo_logo.png" style="width:18px;vertical-align:-4px">
+        E宠商城
+        </a>
+        <a class="c999" href="javascript:;">
+        <img src="//static.epetbar.com/static_web/pc/src/images/background/weixin_logo.png" style="width:18px;vertical-align:-4px">
+        E宠商城
+        </a>
+        <a class="c999" href="https://author.baidu.com/home/1583008152166784" target="_blank">
+        <img src="//static.epetbar.com/static_web/pc/src/images/background/baidu_log.png" style="width:18px;vertical-align:-4px">
+        E宠商城百家号
+        </a>
+        <a class="c999" href="https://www.toutiao.com/c/user/3522484112991051/#mid=1640024497148942" target="_blank">
+        <img src="//static.epetbar.com/static_web/pc/src/images/background/toutiao_logo.png" style="width:18px;vertical-align:-4px">
+        E宠说
+        </a>
+        <a class="c999" href="http://wap.epet.com/app/eWelfare" target="_blank">E宠公益</a>
+        <a class="c999" href="javascript:void(0);" onclick="openSDK()">联系我们</a>
+        <a class="c999" href="http://www.epet.com/faq11.html" target="_blank">公司地址</a>
+        <a class="c999" href="https://sec.epet.com" target="_blank">应急响应</a>
+        <a class="c999" href="http://www.epet.com/zhengpin/main.html?do=newgoods#hquality" target="_blank">仓储中心</a>
+        <a class="c999" href="http://www.epet.com/faq4468.html" target="_blank">用户协议</a>
+        </span>
+                </div>
+            </div>
+            <div class="support ftc">
+                <a href="http://www.epet.com/customer/main.html" target="_blank" title="12315消费维权"><img src="//static.epetbar.com/www/newFooter/12315.png" alt="12315消费维权"></a>
+                <a href="http://webscan.360.cn/index/checkwebsite?url=www.epet.com" target="_blank" title="360网站安全"><img src="//static.epetbar.com/www/newFooter/360.png" alt="360网站安全"></a>
+                <a href="https://search.szfw.org/cert/l/CX20150422007521007683" target="_blank" title="诚信网站"><img src="//static.epetbar.com/www/newFooter/chengxin.png" alt="诚信网站"></a>
+                <a href="http://si.trustutn.org/info?sn=784150413013262761226" target="_blank" title="360品牌官网"><img alt="360品牌官网" src="//static.epetbar.com/www/newFooter/shiming.png"></a>
+                <a href="http://guanjia.qq.com/online_server/result.html?url=www.epet.com" target="_blank" title="腾讯安全认证"><img src="//static.epetbar.com/www/newFooter/tx.png" alt="腾讯安全认证"></a>
+                <a href="http://www.315online.com.cn" target="_blank" title="网上交易保障中心"><img alt="网上交易保障中心" src="//static.epetbar.com/www/newFooter/jybz.png"></a>
+                <a href="http://www.cqgseb.cn/ztgsgl/WebMonitor/GUILayer/eImgMana/wzlwbayz.aspx" target="_blank" title="重庆工商"><img alt="重庆工商" src="//static.epetbar.com/www/newFooter/cqgs.png"></a>
+                <span><img src="//static.epetbar.com/www/newFooter/baiq.png" alt="2013年零售价百强企业"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/wsls.png" alt="重庆网商常务理事"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/sfqy.png" alt="重庆电子商务示范企业"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/yxqy.png" alt="重庆优秀互联网信息服务企业"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/bhdw.png" alt="小动物保护支持单位"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/sjws.png" alt="重庆十佳网商第一"></span>
+            </div>
+            <div class="footer-copy">
+                <p class="ftc ft12"><a href="http://www.miitbeian.gov.cn">渝ICP备10002905号-3</a>　<a href="http://www.epet.com/article4464.html">营业执照</a>　<a href="http://www.epet.com/article4465.html">兽药经营许可证</a>　增值电信业务经营许可证：渝B2-20140042 Copyright © 2007-2020 epet.com 　重庆易宠科技有限公司</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

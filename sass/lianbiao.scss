@@ -1,0 +1,118 @@
+.lux {
+    width: 100%;
+    height: 2px;
+    background-color: green;
+}
+
+.mor {
+    width: 980px;
+    height: 53px;
+    display: flex;
+    margin-left: 400px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.mor span {
+    border-right: 1px solid #ddd;
+    width: 53px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.mor span:nth-child(1) {
+    background-color: green;
+}
+
+.mor span:hover {
+    background-color: green;
+}
+
+.yeshu {
+    width: 350px;
+    height: 53px;
+    margin-left: 260px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.yeshu div {
+    width: 50px;
+    height: 30px;
+    background-color: grey;
+    margin-left: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.lbox {
+    width: 988px;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#list li {
+    width: 235px;
+    height: 350px;
+    display: inline;
+    float: left;
+    border: 1px solid #e6e6e6;
+    line-height: 18px;
+    margin: 5px 10px 10px 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+#list li img {
+    margin: 5px 18px;
+}
+
+#list li:hover {
+    border: 1px solid green;
+}
+
+.bs {
+    border: 1px solid salmon;
+    border-radius: 4px;
+    width: 30px;
+    color: sandybrown;
+    margin-left: 15px;
+    text-align: center;
+    float: left;
+}
+
+.hd {
+    border-radius: 10px;
+    width: 30px;
+    color: wheat;
+    margin-left: 10px;
+    margin-right: 5px;
+    text-align: center;
+    background-color: red;
+    float: left;
+}
+
+.a1 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #000;
+    width: 30px;
+}
+
+.a2 {
+    display: block;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: red;
+    font-size: 16px;
+}
+
+.a3 {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 12px;
+    color: #cecece;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery-1.11.0.js"></script>
+    <script src="../js/Cart.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/Cart.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header_top">
+            <div class="top_l">
+                <a href="../html/index.html">E宠首页</a>
+            </div>
+            <div class="sz">送至：</div>
+            <div class="cq">重庆</div>
+            <div class="xj"></div>
+            <div class="top_l1">
+                <a href="">E宠就是正品</a>
+            </div>
+            <ul class="top_r">
+                <li class="denlu"><a href="../html/denglu.html">[登录]</a></li>
+                <li><a href="../html/">[注册]</a></li>
+                <li><i class="gwc"></i><a href="../html/Cart.html">购物车(<span style="color: red;">0</span>)</a></li>
+                <li><i class="wo"></i><a href="">我的E宠</a></p>
+                </li>
+                <li class="wsc"><i class="sc"></i><a href="">我的收藏</a></li>
+                <li class="pione"><i class="shouji"></i><a href="http://www.epet.com/app.html">手机版</a></li>
+                <li><a class="cred" href="" style="color: red;">问题反馈</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="sections">
+        <!-- cart -->
+        <div class="cart-head">
+            <div class="checked-btn">
+                <input type="checkbox" name="" id="checked-all-btn"> 全选
+            </div>
+            <div class="message">
+                商品信息
+            </div>
+            <ul class="oUl">
+            </ul>
+        </div>
+    </section>
+    <section id="section">
+    </section>
+    <!-- 总和 -->
+    <div id="end">
+
+
+        <button id="sumBtn">结算</button>
+        <span id="null"></span>
+        <span>元</span>
+        <span id="sum">0</span>
+        <span>您需要支付：</span>
+    </div>
+    <!-- 底部 -->
+    <div class="footer-content">
+        <div class="footer-top">
+            <div class="footer-imgs ct w-max">
+                <ul class="clearfix">
+                    <li class="fl">
+                        <a class="zp ft18" href="http://www.epet.com/zhengpin/main.html?do=newgoods#ensure" target="_blank">正品保障</a>
+                    </li>
+                    <li class="fl">
+                        <a class="ck ft18" href="http://www.epet.com/zhengpin/main.html?do=newgoods#moretype" target="_blank">品类丰富</a>
+                    </li>
+                    <li class="fl">
+                        <a class="ps ft18" href="http://www.epet.com/zhengpin/main.html?do=newgoods#hquality" target="_blank">优质服务</a>
+                    </li>
+                    <li class="fl">
+                        <a class="hh ft18" href="http://www.epet.com/zhengpin/main.html?do=newgoods#science" target="_blank">科学养宠</a>
+                    </li>
+                    <li class="fl">
+                        <a class="bs ft18" href="http://www.epet.com/zhengpin/main.html?do=newgoods#epetlove" target="_blank">E宠公益</a>
+                    </li>
+                    <li class="fl">
+                        <a class="cj ft18" href="http://www.epet.com/zhengpin/main.html?do=newgoods#decennium" target="_blank">十年同心</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <div class="info clearfix">
+                <div class="footer-phone fl mr20 pr20">
+                    <img class="fl mt5 dogphone" src="//static.epetbar.com/www/newFooter/dog_phone.gif">
+                    <div class="footer-number fl">
+                        <h2 class="ft14 c666 bold">售后电话：</h2>
+                        <p class="c666 ft20 mt20">4008889200<span class="ml5 ft12">「免长途费」</span></p>
+                        <p class="c666 ft20 mt20">023-68851700<span class="ml5 ft12"></span></p>
+                        <p class="c444 ft12 mt10">服务时间：09:00--18:30（周一到周日）</p>
+                    </div>
+                </div>
+                <div class="pay-style fl">
+                    <h2 class="ft14 c666 bold">购物指南</h2>
+                    <p class="ft14 c444 mt20"><a href="http://www.epet.com/faq4481.html?petType=dog" target="_blank">新人优惠</a></p>
+                    <p class="ft14 c444 mt5"><a href="http://www.epet.com/faq.html?petType=dog" target="_blank">购物问题</a></p>
+                    <p class="ft14 c444 mt5"><a href="http://www.epet.com/faq4467.html?petType=dog" target="_blank">支付问题</a></p>
+                </div>
+                <div class="peisong-style fl">
+                    <h2 class="ft14 c666 bold"></h2>
+                </div>
+                <div class="shopping-guide fl">
+                    <h2 class="ft14 c666 bold">售后服务</h2>
+                    <p class="ft14 c444 mt20"><a href="http://www.epet.com/faq4074.html?petType=dog" target="_blank">退换货政策</a></p>
+                    <p class="ft14 c444 mt5"><a href="http://www.epet.com/faq4254.html?petType=dog" target="_blank">退款说明</a></p>
+                    <p class="ft14 c444 mt5"><a href="http://www.epet.com/faq4487.html?petType=dog" target="_blank">售后问题</a></p>
+                </div>
+                <div class="app-code fl ml20">
+                    <p class="ftc ft12">扫描下载APP</p>
+                    <p class="ftc ft12">下单更优惠</p>
+                    <a href="http://www.epet.com/app.html" target="_blank"><img src="//static.epetbar.com/www/images/dw2.png?v=10"></a>
+                </div>
+                <div class="wx-code fr">
+                    <p class="ftc ft12">扫描关注E宠</p>
+                    <p class="ftc ft12">商城微信</p>
+                    <img src="//static.epetbar.com/www/images/app-code.jpg?v=10">
+                </div>
+            </div>
+            <div class="flink c999 rela">
+                <div class="fwrapper overflow ftc">
+                    <span class="brand-link">
+        <a class="c999" href="https://www.epet.com/zhengpin/main.html?do=newgoods#decennium" target="_blank">关于我们</a>
+        <a class="c999" href="https://weibo.com/epetbar?is_all=1" target="_blank">
+        <img src="//static.epetbar.com/static_web/pc/src/images/background/weibo_logo.png" style="width:18px;vertical-align:-4px">
+        E宠商城
+        </a>
+        <a class="c999" href="javascript:;">
+        <img src="//static.epetbar.com/static_web/pc/src/images/background/weixin_logo.png" style="width:18px;vertical-align:-4px">
+        E宠商城
+        </a>
+        <a class="c999" href="https://author.baidu.com/home/1583008152166784" target="_blank">
+        <img src="//static.epetbar.com/static_web/pc/src/images/background/baidu_log.png" style="width:18px;vertical-align:-4px">
+        E宠商城百家号
+        </a>
+        <a class="c999" href="https://www.toutiao.com/c/user/3522484112991051/#mid=1640024497148942" target="_blank">
+        <img src="//static.epetbar.com/static_web/pc/src/images/background/toutiao_logo.png" style="width:18px;vertical-align:-4px">
+        E宠说
+        </a>
+        <a class="c999" href="http://wap.epet.com/app/eWelfare" target="_blank">E宠公益</a>
+        <a class="c999" href="javascript:void(0);" onclick="openSDK()">联系我们</a>
+        <a class="c999" href="http://www.epet.com/faq11.html" target="_blank">公司地址</a>
+        <a class="c999" href="https://sec.epet.com" target="_blank">应急响应</a>
+        <a class="c999" href="http://www.epet.com/zhengpin/main.html?do=newgoods#hquality" target="_blank">仓储中心</a>
+        <a class="c999" href="http://www.epet.com/faq4468.html" target="_blank">用户协议</a>
+        </span>
+                </div>
+            </div>
+            <div class="support ftc">
+                <a href="http://www.epet.com/customer/main.html" target="_blank" title="12315消费维权"><img src="//static.epetbar.com/www/newFooter/12315.png" alt="12315消费维权"></a>
+                <a href="http://webscan.360.cn/index/checkwebsite?url=www.epet.com" target="_blank" title="360网站安全"><img src="//static.epetbar.com/www/newFooter/360.png" alt="360网站安全"></a>
+                <a href="https://search.szfw.org/cert/l/CX20150422007521007683" target="_blank" title="诚信网站"><img src="//static.epetbar.com/www/newFooter/chengxin.png" alt="诚信网站"></a>
+                <a href="http://si.trustutn.org/info?sn=784150413013262761226" target="_blank" title="360品牌官网"><img alt="360品牌官网" src="//static.epetbar.com/www/newFooter/shiming.png"></a>
+                <a href="http://guanjia.qq.com/online_server/result.html?url=www.epet.com" target="_blank" title="腾讯安全认证"><img src="//static.epetbar.com/www/newFooter/tx.png" alt="腾讯安全认证"></a>
+                <a href="http://www.315online.com.cn" target="_blank" title="网上交易保障中心"><img alt="网上交易保障中心" src="//static.epetbar.com/www/newFooter/jybz.png"></a>
+                <a href="http://www.cqgseb.cn/ztgsgl/WebMonitor/GUILayer/eImgMana/wzlwbayz.aspx" target="_blank" title="重庆工商"><img alt="重庆工商" src="//static.epetbar.com/www/newFooter/cqgs.png"></a>
+                <span><img src="//static.epetbar.com/www/newFooter/baiq.png" alt="2013年零售价百强企业"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/wsls.png" alt="重庆网商常务理事"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/sfqy.png" alt="重庆电子商务示范企业"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/yxqy.png" alt="重庆优秀互联网信息服务企业"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/bhdw.png" alt="小动物保护支持单位"></span>
+                <span><img src="//static.epetbar.com/www/newFooter/sjws.png" alt="重庆十佳网商第一"></span>
+            </div>
+            <div class="footer-copy">
+                <p class="ftc ft12"><a href="http://www.miitbeian.gov.cn">渝ICP备10002905号-3</a>　<a href="http://www.epet.com/article4464.html">营业执照</a>　<a href="http://www.epet.com/article4465.html">兽药经营许可证</a>　增值电信业务经营许可证：渝B2-20140042 Copyright © 2007-2020 epet.com 　重庆易宠科技有限公司</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

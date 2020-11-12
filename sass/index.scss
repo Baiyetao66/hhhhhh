@@ -1,0 +1,1117 @@
+    $width:1200px;
+    header {
+        height: 28px;
+        border-bottom: 1px solid #ddd;
+        background: #f5f5f5;
+    }
+    
+    .header_top {
+        width: $width;
+        height: 28px;
+        margin: 0 auto;
+    }
+    
+    .top_l {
+        background: url(../img/epetbrand.png) no-repeat 5px center;
+        height: 28px;
+        padding: 0 5px;
+        float: left;
+    }
+    
+    .top_l a:hover {
+        color: blue;
+    }
+    
+    .top_l a {
+        color: #444;
+        line-height: 28px;
+        margin-left: 16px;
+    }
+    
+    .sz {
+        line-height: 28px;
+        float: left;
+        padding: 0 5px;
+    }
+    
+    .cq {
+        padding: 0 20px 0 5px;
+        height: 28px;
+        line-height: 28px;
+        float: left;
+    }
+    
+    .xj {
+        background: url(../img/xqico.png) no-repeat 0 6px;
+        float: left;
+        height: 16px;
+        width: 16px;
+        margin-left: -20px;
+        margin-top: 2px;
+    }
+    
+    .top_l1 {
+        background: url(../img/xiaoshou.png) no-repeat 5px center;
+        height: 28px;
+        padding: 0 10px;
+        float: left;
+    }
+    
+    .top_l1 a {
+        color: #444;
+        line-height: 28px;
+        margin-left: 16px;
+    }
+    
+    .top_l1 a:hover {
+        color: orangered;
+    }
+    
+    .top_r {
+        float: right;
+        display: flex;
+        margin-right: 5px;
+    }
+    
+    .top_r li {
+        line-height: 28px;
+        position: relative;
+        margin: auto 10px;
+        padding-left: 8px;
+    }
+    
+    .top_r li a:hover {
+        color: blue;
+    }
+    
+    .gwc,
+    .shouji,
+    .wo,
+    .sc {
+        background: url(../img/daohuan.png) no-repeat 0 center;
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        left: -10px;
+        top: 6px;
+    }
+    
+    .shouji {
+        background: url(../img/daohuan.png) no-repeat -42px center;
+        padding-left: 5px;
+    }
+    
+    .wo {
+        background: url(../img/daohuan.png) no-repeat -22px center;
+    }
+    
+    .sc {
+        background: url(../img/daohuan.png) no-repeat -64px center;
+    }
+    
+    .denlu,
+    .pione {
+        left: 15px;
+    }
+    
+    .wsc {
+        left: 10px;
+    }
+    
+    .search {
+        width: $width;
+        margin: 0 auto;
+        height: 154px;
+        overflow: hidden;
+    }
+    
+    .seach {
+        height: 94px;
+        margin-top: 10px;
+    }
+    
+    .logo {
+        height: 94px;
+        width: 268px;
+        background: url(../img/epet-logo.png)no-repeat center;
+        float: left;
+    }
+    
+    form {
+        float: left;
+    }
+    
+    form input {
+        border: #459d36 solid 2px;
+        padding: 0 5px 0 15px;
+        width: 382px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        float: left;
+        margin-top: 23px;
+        margin-left: 33px;
+    }
+    
+    form button {
+        border: 0;
+        width: 73px;
+        height: 34px;
+        vertical-align: top;
+        cursor: pointer;
+        background-color: #459d36;
+        color: #FFF;
+        font-size: 14px;
+        margin-top: 23px;
+    }
+    
+    .Hot {
+        margin: 10px 0;
+        width: 498px;
+        height: 17px;
+        overflow: hidden;
+        margin-left: 33px;
+        color: #999;
+    }
+    
+    .Hot span {
+        color: #999;
+        margin: 0 10px;
+    }
+    
+    .Hot a {
+        color: #999;
+    }
+    
+    .Hot a:hover {
+        color: #000;
+    }
+    
+    .shopping_cart {
+        margin: 23px 0 0;
+        width: 130px;
+        height: 39px;
+        float: right;
+        line-height: 39px;
+        text-align: center;
+        text-indent: 2em;
+        background: url(../img/shopping-cart.gif) no-repeat;
+    }
+    
+    .shopping_cart a:hover {
+        color: blue;
+    }
+    
+    .nav {
+        height: 34px;
+        margin-top: 14px;
+    }
+    
+    .navbox-l {
+        background: #357e34;
+        width: 228px;
+        height: 34px;
+        float: left;
+    }
+    
+    .nav .gougou {
+        width: 112px;
+        height: 32px;
+        float: left;
+        text-align: center;
+        border: 1px solid #e1e1e1;
+        color: #444;
+        cursor: pointer;
+        text-align: center;
+        line-height: 32px;
+        font-size: 16px;
+    }
+    
+    .shangping {
+        width: 112px;
+        height: 32px;
+        text-align: center;
+        border: 1px solid #e1e1e1;
+        cursor: pointer;
+        text-align: center;
+        line-height: 32px;
+        font-size: 16px;
+        color: #fff;
+        float: left;
+    }
+    
+    .shangping a {
+        color: #ffffff;
+    }
+    
+    .navbox-r {
+        display: flex;
+    }
+    
+    .navbox-r li {
+        line-height: 34px;
+        font-size: 16px;
+        color: #000;
+        font-weight: 700;
+        padding: 0 20px;
+        outline: 0;
+        height: 34px;
+    }
+    
+    .navbox-r li b {
+        display: inline-block;
+        width: 13px;
+        height: 17px;
+        background: url(../img/gutou.png) no-repeat;
+        vertical-align: middle;
+        margin-top: -2px;
+        margin-right: 6px;
+    }
+    
+    .navbox-r li:hover a {
+        color: green;
+    }
+    
+    .navbox-r li:hover b {
+        transition: 0.5s;
+        transform: rotate(180deg)
+    }
+    
+    // 轮播部分
+    #banner {
+        height: 360px;
+        background-color: #f5f5f5;
+    }
+    
+    .banner {
+        width: $width;
+        height: 360px;
+        margin: 0 auto;
+    }
+    
+    .sp-nav {
+        width: 228px;
+        height: 306px;
+        float: left;
+    }
+    
+    .sp-nav li {
+        height: 51px;
+        display: block;
+        width: 100%;
+        background: url(../img/menuLine1.png);
+    }
+    
+    .sp-nav li h3 {
+        padding-left: 16px;
+        font-weight: 400;
+        height: 50px;
+        line-height: 50px;
+        background: url(../img/xiaoshanjiao.png) 200px center no-repeat;
+        background-color: #fcfcfc;
+    }
+    
+    .sp-nav li h3 a {
+        font-size: 14px;
+        display: inline-block;
+        width: 88px;
+        overflow: hidden;
+        height: 50px;
+    }
+    
+    .huoren {
+        height: 52px;
+        line-height: 52px;
+        background: #fff;
+        color: #22990d;
+        text-indent: 20px;
+        font-size: 14px;
+    }
+    
+    .huoren img {
+        vertical-align: middle;
+        margin-top: -3px;
+        margin-right: 5px;
+        display: inline;
+    }
+    
+    .huoren a {
+        height: 24px;
+        padding: 0 9px;
+        border-radius: 8px;
+        background: #fb6003;
+        color: #fff;
+        margin-left: 10px;
+    }
+    
+    // 轮播
+    .Rotation {
+        width: 770px;
+        height: 360px;
+        float: left;
+        background: url(../img/0ebdc21b5513b373ba1922f9f54dcc74.jpg)no-repeat center;
+        background-size: 100%;
+    }
+    
+    .main_r {
+        width: 200px;
+        height: 360px;
+        position: relative;
+        margin-right: 2px;
+        overflow: hidden;
+    }
+    
+    .imgBox,
+    .main_r {
+        overflow: hidden;
+        display: block;
+        border-bottom: 1px dotted #ddd;
+    }
+    
+    // 狗狗食品玩具
+    .Foodtoys {
+        width: $width;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .shiping {
+        margin-top: 30px;
+    }
+    
+    .pb10 {
+        padding-bottom: 10px;
+    }
+    
+    .c333 {
+        color: #333;
+    }
+    
+    .ft20 {
+        font-size: 20px;
+    }
+    
+    .epetfood-tit i {
+        background: url(../img/cate_5.png) no-repeat;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .mr5 {
+        margin-right: 5px;
+    }
+    
+    .ad-img3 .hotkind {
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    .overflow {
+        overflow: hidden;
+    }
+    
+    .xqs {
+        position: relative;
+        width: 328px;
+    }
+    
+    .qingsha {
+        width: 330px;
+        height: 178px;
+        background: rgba(255, 255, 255, .8);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    
+    .zhuire {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px auto;
+        width: 298px;
+        height: 38px;
+    }
+    
+    .huo {
+        background: url(../img/huo.png) no-repeat;
+        width: 27px;
+        height: 27px;
+        margin: 0 5px 0 10px;
+    }
+    
+    .hx {
+        width: 87px;
+        overflow: hidden;
+    }
+    
+    .re {
+        margin-right: 10px;
+        font-size: 14px;
+        color: #666;
+    }
+    
+    .libiao {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 298px;
+    }
+    
+    .libiao li {
+        width: 87px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        background: #fff;
+        border-radius: 12px;
+    }
+    
+    .libiao li a:hover {
+        color: blue;
+    }
+    
+    //
+    .ssss {
+        position: relative;
+    }
+    
+    .qingsha1 {
+        width: 330px;
+        height: 178px;
+        background: rgba(255, 255, 255, .8);
+        position: absolute;
+        left: 0px;
+        top: 370px;
+        z-index: 2;
+    }
+    
+    .zhuire1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px auto;
+        width: 298px;
+        height: 38px;
+    }
+    
+    .huo1 {
+        background: url(../img/huo.png) no-repeat;
+        width: 27px;
+        height: 27px;
+        margin: 0 5px 0 10px;
+    }
+    
+    .hx1 {
+        width: 87px;
+        overflow: hidden;
+    }
+    
+    .re1 {
+        margin-right: 10px;
+        font-size: 14px;
+        color: #666;
+    }
+    
+    .libiao1 {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 298px;
+    }
+    
+    .libiao1 li {
+        width: 87px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        background: #fff;
+        border-radius: 12px;
+    }
+    
+    .libiao1 li a:hover {
+        color: blue;
+    }
+    
+    .brands-ul {
+        border-right: 1px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    
+    .brands-ul li {
+        width: 148px;
+        height: 66px;
+        border-left: 1px solid #e7e7e7;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    a:link,
+    a:visited {
+        outline: 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #444;
+    }
+    
+    * {
+        word-wrap: break-word;
+    }
+    
+    .user agent stylesheet a:-webkit-any-link {
+        color: -webkit-link;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    
+    .brands-ul li {
+        width: 148px;
+        height: 66px;
+        border-left: 1px solid #e7e7e7;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .brands-ul li img {
+        width: 100px;
+        height: 48px;
+        margin-top: 8px;
+        display: inline-block;
+    }
+    
+    // cccc
+    .mt30 {
+        margin-top: 30px;
+    }
+    
+    .pb10 {
+        padding-bottom: 10px;
+    }
+    
+    constructed stylesheet .c333 {
+        color: #333;
+    }
+    
+    constructed stylesheet .ft20 {
+        font-size: 20px;
+    }
+    
+    .ad-img3 {
+        width: 328px;
+        height: 477px;
+    }
+    
+    .overflow {
+        overflow: hidden;
+        _zoom: 1;
+    }
+    
+    .rela,
+    .rel {
+        position: relative;
+    }
+    
+    .fl {
+        float: left;
+    }
+    
+    .epetfood-pro {
+        width: 872px;
+        border-top: 1px solid #459d36;
+    }
+    
+    .lib-menu {
+        border-right: 1px solid #e7e7e7;
+        top: -35px;
+        right: 0;
+        width: 872px;
+        height: 35px;
+    }
+    
+    .lib-menu ul {
+        border-left: 1px solid #e7e7e7;
+        margin-right: 0;
+    }
+    
+    .dib {
+        display: inline-block;
+        *display: inline;
+        *zoom: 1;
+    }
+    
+    .dib {
+        display: inline-block;
+    }
+    
+    .clearfix {
+        *zoom: 1;
+    }
+    
+    .ftc {
+        text-align: center;
+    }
+    
+    .lib-menu li.hover {
+        border-left: 1px solid #459d36;
+        border-right: 1px solid #459d36;
+        border-top: 1px solid #459d36;
+        margin-left: -2px;
+        border-bottom: 1px solid #fff;
+    }
+    
+    .lib-menu li {
+        border-bottom: 1px solid #459d36;
+        border-left: #fff;
+        border-right: 1px solid #fff;
+        height: 33px;
+        border-top: 1px solid #e7e7e7;
+    }
+    
+    .bgwhite,
+    .tancbox,
+    .probox,
+    .header,
+    .catgr_ej,
+    .zhis {
+        background: #fff;
+    }
+    
+    .lib-menu li.hover .border-t {
+        border-top: 2px solid #459d36;
+    }
+    
+    .lib-menu .border-t {
+        border-top: 2px solid #fff;
+        padding-top: 5px;
+    }
+    
+    .lib-menu li.hover span {
+        border-right: 0;
+        color: #459d36;
+    }
+    
+    .lib-menu li span {
+        padding: 0 15px;
+        border-right: 1px solid #e7e7e7;
+        font-size: 14px;
+    }
+    
+    .lib_conbox .imgbox {
+        border-right: 1px solid #e7e7e7;
+    }
+    
+    .epetfood-pro .border-r {
+        border-left: 1px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
+        overflow: hidden;
+    }
+    
+    .epetfood-pro .bigimg3 .ad-font {
+        width: 160px;
+        position: absolute;
+        top: 15px;
+        left: 29px;
+        z-index: 1;
+    }
+    
+    .epetfood-pro .bigimg1 {
+        width: 388px;
+        height: 299px;
+    }
+    
+    a:link,
+    a:visited {
+        outline: 0;
+    }
+    
+    .epetfood-pro .bigimg1 .ad-font {
+        width: 160px;
+        position: absolute;
+        top: 30px;
+        left: 27px;
+        z-index: 1;
+    }
+    
+    .epetfood-pro .border-r .fontover {
+        text-overflow: inherit;
+    }
+    
+    .fontover {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .c000 {
+        color: #000;
+    }
+    
+    .ft16 {
+        font-size: 16px;
+    }
+    
+    .epetfood-pro .border-r .fontover {
+        text-overflow: inherit;
+    }
+    
+    .fontover {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .cf40 {
+        color: #f40;
+    }
+    
+    .mt5 {
+        margin-top: 5px;
+    }
+    
+    .epetfood-pro .imgbox img {
+        -webkit-transition: -webkit-transform .5s;
+        transition: -webkit-transform .5s;
+        -moz-transition: transform .5s, -moz-transition .5s;
+        transition: transform .5s, -webkit-transform .5s, -moz-transform .5s;
+    }
+    
+    .ft14 {
+        font-size: 14px;
+    }
+    
+    .ad-img3 {
+        width: 328px;
+        height: 477px;
+    }
+    
+    .overflow {
+        overflow: hidden;
+        _zoom: 1;
+    }
+    
+    .abs {
+        position: absolute;
+    }
+    
+    .ad-img3 .kind-name {
+        width: 315px;
+        height: 102px;
+    }
+    
+    .mt,
+    .mtop10 {
+        margin-top: 10px;
+    }
+    
+    .epetfood-pro {
+        width: 872px;
+        border-top: 1px solid #459d36;
+    }
+    
+    .lib-menu {
+        border-right: 1px solid #e7e7e7;
+        top: -35px;
+        right: 0;
+        width: 872px;
+        height: 35px;
+    }
+    
+    .textR {
+        text-align: right;
+    }
+    
+    .lib-menu ul {
+        border-left: 1px solid #e7e7e7;
+        margin-right: 0;
+    }
+    
+    .lib_conbox .imgbox {
+        border-right: 1px solid #e7e7e7;
+    }
+    
+    .fr {
+        float: right;
+    }
+    
+    .epetfood-pro .bigimg2 {
+        width: 481px;
+        height: 149px;
+    }
+    
+    .epetfood-pro .bigimg2 .ad-font {
+        width: 160px;
+        position: absolute;
+        top: 28px;
+        left: 67px;
+        z-index: 1;
+    }
+    
+    user agent stylesheet div {
+        display: block;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #444;
+    }
+    
+    .epetfood-pro .border-r .fontover {
+        text-overflow: inherit;
+    }
+    
+    .fontover {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .ft16 {
+        font-size: 16px;
+    }
+    
+    .ad-threebox {
+        background: #f9f9f9;
+    }
+    
+    .epetfood-pro .bigimg3 {
+        width: 289px;
+        height: 175px;
+    }
+    
+    epetfood-pro .bigimg3 .ad-font {
+        width: 160px;
+        position: absolute;
+        top: 15px;
+        left: 29px;
+        z-index: 1;
+    }
+    
+    // 底部
+    .footer-content {
+        background: #f5f5f5;
+    }
+    
+    .footer-content .footer-top {
+        border-bottom: 1px solid #e5e5e5;
+        height: 100px;
+    }
+    
+    .ct {
+        margin: 0 auto;
+    }
+    
+    .w-max {
+        width: 1200px;
+    }
+    
+    .footer-content .footer-imgs ul {
+        width: 1200px;
+        margin: 0 auto;
+        padding: 19px 0;
+    }
+    
+    .footer-content .footer-imgs ul li {
+        width: 200px;
+    }
+    
+    .footer-content .footer-imgs ul li .zp {
+        background: url(../img/logo.png) 0 0 no-repeat;
+    }
+    
+    .footer-content .footer-imgs ul li .ck {
+        background: url(../img/logo.png) 0 -162px no-repeat;
+    }
+    
+    .footer-content .footer-imgs ul li .ps {
+        background: url(../img/logo.png) 0 -242px no-repeat;
+    }
+    
+    .footer-content .footer-imgs ul li .hh {
+        background: url(../img/logo.png) 0 -82px no-repeat;
+    }
+    
+    .footer-content .footer-imgs ul li .bs {
+        background: url(../img/logo.png) 0 -322px no-repeat;
+    }
+    
+    .footer-content .footer-imgs ul li .cj {
+        background: url(../img/logo.png) 0 -402px no-repeat;
+    }
+    
+    .footer-content .footer-imgs ul li a {
+        display: block;
+        width: 128px;
+        height: 62px;
+        padding-left: 72px;
+        line-height: 62px;
+        color: #444;
+        font-weight: 700;
+        transition: all .8s ease;
+        -webkit-transition: all .8s ease;
+        -moz-transition: all .8s ease;
+        -ms-transition: all .8s ease;
+    }
+    
+    .footer-content .footer-wrapper .flink a {
+        display: inline-block;
+        margin: 0 15px 10px 0;
+    }
+    
+    a:link,
+    a:visited {
+        outline: 0;
+    }
+    
+    .ft18 {
+        font-size: 18px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #444;
+    }
+    
+    .footer-content .footer-wrapper {
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+    
+    .footer-content .footer-wrapper .info {
+        padding-bottom: 160px;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+    .pr20,
+    .mr20 {
+        padding-right: 20px;
+    }
+    
+    .mt5 {
+        margin-top: 5px;
+    }
+    
+    .footer-content .footer-wrapper .footer-phone .footer-number {
+        margin-left: 30px;
+    }
+    
+    .bold {
+        font-weight: 700;
+    }
+    
+    .c666 {
+        color: #666;
+    }
+    
+    .ft14 {
+        font-size: 14px;
+    }
+    
+    b,
+    h1,
+    h2,
+    h3 {
+        font-weight: 400;
+    }
+    
+    .footer-content .footer-wrapper .footer-phone .footer-number p {
+        margin-top: 15px;
+    }
+    
+    .mt20,
+    .mtop20 {
+        margin-top: 20px;
+    }
+    
+    .ft20 {
+        font-size: 20px;
+    }
+    
+    .footer-content .footer-wrapper .pay-style,
+    .footer-content .footer-wrapper .peisong-style,
+    .footer-content .footer-wrapper .shopping-guide {
+        margin-right: 100px;
+    }
+    
+    .footer-content .footer-wrapper .pay-style {
+        margin-left: 40px;
+    }
+    
+    .footer-content .footer-wrapper .app-code,
+    .footer-content .footer-wrapper .wx-code {
+        margin-top: -5px;
+    }
+    
+    .footer-content .footer-wrapper .app-code {
+        margin-right: 36px;
+    }
+    
+    .ml20 {
+        margin-left: 20px;
+    }
+    
+    .footer-content .footer-wrapper .flink {
+        padding-top: 20px;
+    }
+    
+    .rela,
+    .rel {
+        position: relative;
+    }
+    
+    .footer-content .footer-wrapper .flink .fwrapper {
+        width: 1150px;
+        height: 20px;
+    }
+    
+    .c999 {
+        color: #999;
+    }
+    
+    .footer-content .footer-wrapper .support {
+        margin-top: 20px;
+    }
+    
+    .footer-content .footer-wrapper .support a,
+    .footer-content .footer-wrapper .support span {
+        display: inline-block;
+        margin-right: 3px;
+    }
+    
+    .footer-content .footer-wrapper .footer-copy {
+        padding: 20px 0 40px;
+        color: #000;
+    }
+    
+    .footer-content .footer-wrapper .footer-copy p {
+        color: #000;
+    }
+    
+    .ftc {
+        text-align: center;
+    }
+    
+    .ft12 {
+        font-size: 12px;
+    }
+    
+    .footer-content .footer-wrapper .flink {
+        padding-top: 20px;
+    }
+    
+    .footer-copy p a:hover,
+    .pay-style p a:hover,
+    .shopping-guide p a:hover {
+        color: red;
+        text-decoration: underline;
+    }
